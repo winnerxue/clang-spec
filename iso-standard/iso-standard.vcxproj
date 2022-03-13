@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{02c7fb15-4664-42cc-96d8-3118db23bf54}</ProjectGuid>
-    <RootNamespace>consoleproj</RootNamespace>
+    <ProjectGuid>{c85f237a-ebcb-4640-89b2-b78e9fb41e24}</ProjectGuid>
+    <RootNamespace>isostandard</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="consoleproj.cpp" />
+    <None Include="iso.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
